@@ -121,4 +121,12 @@ Para evitar throttling foi configurado o intervalo 3s (20 msgs/min) e envio apen
 
 ## Resultado
 
-Aqui está o vídeo do sistema funcionando e registrando a mudança de sinal ao redor do campus da faculdade.
+[Aqui está o vídeo do sistema funcionando e registrando a mudança de sinal ao redor do campus da faculdade.](https://drive.google.com/file/d/15xrgWLATIy0e90wcCX7ngIciFaTKR9D9/view?usp=drivesdk)
+
+O projeto demonstrou com sucesso a capacidade do ESP32 de monitorar continuamente a intensidade do sinal Wi-Fi (RSSI) e enviar esses dados para a plataforma Adafruit IO utilizando o protocolo MQTT. Após ajustes no intervalo de transmissão e na lógica de envio, o sistema passou a operar dentro dos limites de taxa do Adafruit IO, garantindo estabilidade e evitando throttling.
+
+Além disso, a integração com o dashboard permitiu visualizar em tempo real as oscilações do sinal, evidenciando como ambientes físicos — como o elevador utilizado nos testes — podem impactar drasticamente a recepção de radiofrequência. O experimento reforça a importância do RSSI como métrica em aplicações IoT e demonstra um fluxo completo de coleta, transmissão e visualização de dados em nuvem.
+
+
+## Autoria: Nathalia Figueredo
+
